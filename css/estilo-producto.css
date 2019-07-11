@@ -1,0 +1,39 @@
+body{
+    height: auto;
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fondo-principal{
+    width: 100%;
+    height: 100%;
+}
+.barra-navegacion{
+    margin: 10px 10px 6px 10px;
+    padding: 10px;
+}
+.titulo{
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+}
+.fuente-nav{
+    font-family: 'Kreon', serif;
+}
+
+.central{
+    font-family: 'Kreon', serif;
+    margin: 0px 20px;
+    padding: 10px 20px;
+    border: 1px solid black;
+    height: auto;
+}
+
+
+/*FOOTER*/
+.box{
+    margin-top: 0px;
+}
+.piepagina-copy a{
+    font-family: 'Merienda', cursive;
+    color: black;
+}
