@@ -1,0 +1,84 @@
+body{
+    height: auto;
+    background-image: url("../img/fondo1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.fondo-principal{
+    width: 100%;
+    height: 100%;
+}
+.barra-navegacion{
+    margin: 10px;
+    padding: 10px;
+}
+.titulo{
+    font-size: 25px;
+    font-family: 'Merienda', cursive;
+}
+.fuente-nav{
+    font-family: 'Kreon', serif;
+}
+.central{
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid black;
+    height: auto;
+}
+.subtitulo{
+    width: 100%;
+    padding: 0px;   
+    font-family: 'Merienda', cursive; 
+}
+.vision{
+    padding: 100px 60px 100px 60px; 
+    font-family: 'Kreon', serif;   
+}
+.mision{
+    padding: 100px 60px 100px 60px;
+    font-family: 'Kreon', serif;
+}
+.boton{
+    width: 100%;
+    font-family: 'Kreon', serif;
+}
+.boton-radio{
+    border-radius: 15px;
+}
+/*FOOTER*/
+.box{
+    margin-top: 20px;
+    /*padding-left: 20%;
+    width: 100%;
+    height: 100%;*/
+}
+.box-img{
+    width: 70%;
+    height: 120px;
+    overflow: hidden;
+    box-shadow: 3px 5px 25px rgba(0, 0, 0, 0.548);
+}
+#zoom{
+    width: 90%;
+    height: 150px;
+}
+img#zoom{
+    -webkit-transform: scale(1,1);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 500ms;
+    -moz-transform: scale(1,1);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 500ms;
+}
+img#zoom:hover{
+    -webkit-transform: scale(1.19,1.19);
+    -webkit-transition-timing-function: ease-out;
+    -webkit-transition-duration: 500ms;
+    -moz-transform: scale(1.19,1.19);
+    -moz-transition-timing-function: ease-out;
+    -moz-transition-duration: 500ms;
+}
+.piepagina-copy a{
+    font-family: 'Merienda', cursive;
+    color: black;
+}
