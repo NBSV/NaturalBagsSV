@@ -1,213 +1,503 @@
 <!DOCTYPE html>
 <html lang="es">
-        <head>
-                <meta charset="utf-8">
-                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-                <meta http-equiv="x-ua-compatible" content="ie=edge">
-                <title>Natural Bags · SV</title>
-                <!-- Font Awesome -->
-                <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-                <!-- Bootstrap core CSS -->
-                <link href="css/bootstrap.min.css" rel="stylesheet">
-                <!-- Material Design Bootstrap -->
-                <link href="css/mdb.min.css" rel="stylesheet">
-                <!-- Your custom styles (optional) -->
-                <link href="css/estilo-producto.css" rel="stylesheet">
-                <!--Fuente titulo-->
-                <link href="https://fonts.googleapis.com/css?family=Kreon|Merienda&display=swap" rel="stylesheet"> 
 
-              </head>
- <!-- Start your project here CONTACT-->
- <body>
-    <div class="container-fluid fondo-principal">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Natural Bags · SV</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/estilo-producto.css" rel="stylesheet">
+  <!--Fuente titulo-->
+  <link href="https://fonts.googleapis.com/css?family=Kreon|Merienda&display=swap" rel="stylesheet">
 
-
-          <!--BARRA DE NAVEGACION-->
-          <div class="barra-navegacion" >
-            <nav class="navbar navbar-expand-lg navbar-light  light-blue accent-3" >
-              <a class="navbar-brand titulo" href="#">
-                <img src="img/Nuevo-Logo-Peq.png" width="35" height="35" class="d-inline-block align-top" alt="Logo Natural Bags SV">
-                  Natural Bags SV
-              </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                      <span class="navbar-toggler-icon"></span>
-                    </button>
-                    
-                    <div class="collapse navbar-collapse fuente-nav" id="navbarNav">
-                      <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                          <a class="nav-link " href="index.html">Inicio <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item active">
-                          <a class="nav-link disabled" href="prod.html">Productos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="contact.html">Contactanos</a>
-                        </li>
-                        <li class="nav-item">
-                          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-                        </li>
-                      </ul>
-                      
-                      <!--Redes sociales navegador-->
-                      <ul class="navbar-nav nav-flex-icons">
-                          <li class="nav-item">
-                            <a class="nav-link" href="https://www.facebook.com/pg/NatualBagsSV"><i class="fab fa-facebook-f"></i></a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link"><i class="fab fa-twitter"></i></a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="https://www.instagram.com/natural_bags_sv/"><i class="fab fa-instagram"></i></a>
-                          </li>
-                        </ul>
+  <!-- Mi JavaScript -->
+  <script type="text/javascript" src="js/js-producto.js"></script>
 
 
-                    </div>
-                  </nav>  
-            
-          </div>
-          <!--BARRA DE NAVEGACION-->
+
+</head>
+<!-- Start your project here CONTACT-->
+
+<body>
+
+  <div id="contenedor-carga">
+    <h3 id="titulo-carga">CARGANDO</h3>
+    <img id="img-carga" src="img/Nuevo-Logo-Peq.png" alt="Logo Natural Bags SV">
+    <div id="carga"></div>
+  </div>
 
 
-        <!--CUERPO CENTRAL-->
-        <div class="central mb-3">
-
-            <!--Seccion: Contacto v.2-->
-            <section class="mb-2 row">
-
-                <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
-
-                    <!-- Card -->
-                    <div class="card">
-                        
-                        <!-- Card image -->
-                        <div class="view overlay">
-                        <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-                        <a href="#!">
-                            <div class="mask rgba-white-slight"></div>
-                        </a>
-                        </div>
-                    
-                        <!-- Card content -->
-                        <div class="card-body">
-                    
-                        <!-- Title -->
-                        <h4 class="card-title">Bolsa de Regalo - Solo Fondo</h4>
-                        <!-- Text -->
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <!-- Button -->
-                        <a href="#" class="btn btn-primary">Ver Muestras</a>
-                    
-                        </div>
-                    
-                    </div>
-                    <!-- Card -->
-
-                </div>
+  <div class="container-fluid fondo-principal">
 
 
-                <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+    <!--BARRA DE NAVEGACION-->
+    <div class="barra-navegacion">
+      <nav class="navbar navbar-expand-lg navbar-light  light-blue accent-3">
+        <a class="navbar-brand titulo" href="#">
+          <img src="img/Nuevo-Logo-Peq.png" width="35" height="35" class="d-inline-block align-top"
+            alt="Logo Natural Bags SV">
+          Natural Bags SV
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-                        <!-- Card -->
-                        <div class="card">
-                            
-                            <!-- Card image -->
-                            <div class="view overlay">
-                            <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-                            <a href="#!">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                            </div>
-                        
-                            <!-- Card content -->
-                            <div class="card-body">
-                        
-                            <!-- Title -->
-                            <h4 class="card-title">Bolsa de Regalo - Papel Sencillo</h4>
-                            <!-- Text -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <!-- Button -->
-                            <a href="#" class="btn btn-primary">Ver Muestras</a>
-                        
-                            </div>
-                        
-                        </div>
-                        <!-- Card -->
-    
-                </div>
+        <div class="collapse navbar-collapse fuente-nav" id="navbarNav">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link " href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link disabled" href="prod.html">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contactanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
 
-
-                <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
-
-                        <!-- Card -->
-                        <div class="card">
-                            
-                            <!-- Card image -->
-                            <div class="view overlay">
-                            <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
-                            <a href="#!">
-                                <div class="mask rgba-white-slight"></div>
-                            </a>
-                            </div>
-                        
-                            <!-- Card content -->
-                            <div class="card-body">
-                        
-                            <!-- Title -->
-                            <h4 class="card-title">Bolsa de Regalo - Estampado</h4>
-                            <!-- Text -->
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <!-- Button -->
-                            <a href="#" class="btn btn-primary">Ver Muestras</a>
-                        
-                            </div>
-                        
-                        </div>
-                        <!-- Card -->
-    
-                </div>
-                
-
-            </section>
-            <!--Seccion: Contacto v.2-->
+          <!--Redes sociales navegador-->
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.facebook.com/pg/NatualBagsSV"><i class="fab fa-facebook-f"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link"><i class="fab fa-twitter"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://www.instagram.com/natural_bags_sv/"><i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
 
 
         </div>
-        <!--CUERPO CENTRAL-->
-            
-            
-        <!--CUERPO PIE DE PAGINA-->
-            <!-- Footer -->
-                <div class="container-fluid box">
-                            <footer>
-    
-                                <!-- Copyright -->
-                                <div class="piepagina-copy footer-copyright text-center py-3 light-blue accent-3">© 2019 Copyright:
-                                    <b>
-                                      <ins><a href="#">NaturalBagsSV.com</a></ins>
-                                    </b>
-                                </div>
-                                <!-- Copyright -->
-                                
-                            </footer>
-                </div>
-            <!-- Footer -->
-        <!--CUERPO PIE DE PAGINA-->
-    
-    
+      </nav>
+
     </div>
-                      
-    <!-- Start your project here-->
-                  
-                    <!-- SCRIPTS -->
-                    <!-- JQuery -->
-                    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-                    <!-- Bootstrap tooltips -->
-                    <script type="text/javascript" src="js/popper.min.js"></script>
-                    <!-- Bootstrap core JavaScript -->
-                    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-                    <!-- MDB core JavaScript -->
-                    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <!--BARRA DE NAVEGACION-->
+
+
+    <!--CUERPO CENTRAL-->
+    <div class="central mb-3">
+
+      <!--Seccion: Productos-->
+      <section class="mb-2 row">
+
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+
+          <!-- Card -->
+          <div class="card">
+
+            <!-- Card image -->
+            <div class="view overlay">
+              <img class="card-img-top img-fluid" src="img/BolsaFotosGrupal/bolsaConjunto3.png" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body">
+
+              <!-- Title -->
+              <h4 class="card-title">Bolsa de Regalo - Solo Fondo</h4>
+              <!-- Text -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalSoloFondo">Ver Muestras</a>
+
+            </div>
+
+
+            <!-- Central Modal Solo Fondo -->
+            <div class="modal fade bd-example-modal-xl" id="ModalSoloFondo" tabindex="-1" role="dialog"
+              aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                    <p class="heading lead">!Muestras Bolsas De Regalo Solo Fondo!</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                  </div>
+
+                  <!--Body-->
+                  <div class="modal-body">
+                    <div class="text-center">
+
+                      <!--Fotos Muestras-->
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                      </div>
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+
+                      </div>
+
+                      <!--Fotos Muestras-->
+
+                      <p>Solicita una visita con muestras reales para tomar la mejor decision al comprar.</p>
+                    </div>
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-primary" href="contact.html">Visita<i
+                        class="far fa-envelope ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Cerrar</a>
+                  </div>
+                </div>
+                <!--/.Content-->
+              </div>
+            </div>
+            <!-- Central Modal Solo Fondo-->
+
+
+          </div>
+          <!-- Card -->
+
+        </div>
+
+
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+
+          <!-- Card -->
+          <div class="card">
+
+            <!-- Card image -->
+            <div class="view overlay">
+              <img class="card-img-top img-fluid" src="img/BolsaFotosGrupal/bolsaConjunto2.png" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body">
+
+              <!-- Title -->
+              <h4 class="card-title">Bolsa de Regalo - Papel Sencillo</h4>
+              <!-- Text -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <!-- Button -->
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalPapelSencillo">Ver Muestras</a>
+
+            </div>
+
+            <!-- Central Modal Papel Sencillo -->
+            <div class="modal fade bd-example-modal-xl" id="ModalPapelSencillo" tabindex="-1" role="dialog"
+              aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl modal-notify modal-info" role="document">
+                <!--Content-->
+                <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                    <p class="heading lead">!Muestras Bolsas De Regalo Papel Sencillo!</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                  </div>
+
+                  <!--Body-->
+                  <div class="modal-body">
+                    <div class="text-center">
+
+                      <!--Fotos Muestras-->
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                      </div>
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+
+                      </div>
+
+                      <!--Fotos Muestras-->
+
+                      <p>Solicita una visita con muestras reales para tomar la mejor decision al comprar.</p>
+                    </div>
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-primary" href="contact.html">Visita<i
+                        class="far fa-envelope ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Cerrar</a>
+                  </div>
+                </div>
+                <!--/.Content-->
+              </div>
+            </div>
+            <!-- Central Modal Papel Sencillo-->
+
+
+          </div>
+          <!-- Card -->
+
+        </div>
+
+
+        <div class="col-sm-12 col-md-4 col-lg-4 mt-3">
+
+          <!-- Card -->
+          <div class="card">
+
+            <!-- Card image -->
+            <div class="view overlay">
+              <img class="card-img-top img-fluid" src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="Card image cap">
+              <a href="#!">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!-- Card content -->
+            <div class="card-body">
+
+              <!-- Title -->
+              <h4 class="card-title">Bolsa de Regalo - Estampado</h4>
+              <!-- Text -->
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+              <!-- Button -->
+              <a href="#" onclick="mifuncion()" class="btn btn-primary" data-toggle="modal"
+                data-target="#ModalEstampado">Ver Muestras</a>
+
+            </div>
+
+            <!-- Central Modal Estampado -->
+            <div class="modal fade bd-example-modal-xl" id="ModalEstampado" tabindex="-1" role="dialog"
+              aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-xl modal-notify modal-info" role="document">
+                <!--Content-->
+
+                <div class="modal-content">
+                  <!--Header-->
+                  <div class="modal-header">
+                    <p class="heading lead">!Muestras Bolsas De Regalo Estampado!</p>
+
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true" class="white-text">&times;</span>
+                    </button>
+                  </div>
+
+                  <!--Body-->
+                  <div class="modal-body m1">
+
+                    <div id="cargando">
+
+                      <h1 class="text-center">Iniciando Muestras.</h1>
+
+                      <div class="caja-cargando mb-3">
+
+                        <div class="loader" id="onload"></div>
+
+                      </div>
+
+                    </div>
+
+                    <div class="text-center i2" id="cuerpo">
+                      <!--Fotos Muestras-->
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                      </div>
+
+                      <div class="row">
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+                        <figure class="col-md-3">
+                          <img src="img/BolsaFotosGrupal/bolsaConjunto1.png" alt="placeholder" class="img-fluid">
+                        </figure>
+
+
+                      </div>
+
+                      <!--Fotos Muestras-->
+
+                      <p class="text-center">Solicita una visita con muestras reales para tomar la mejor decision al
+                        comprar.</p>
+                    </div>
+
+                  </div>
+
+                  <!--Footer-->
+                  <div class="modal-footer justify-content-center">
+                    <a type="button" class="btn btn-primary" href="contact.html">Visita<i
+                        class="far fa-envelope ml-1 text-white"></i></a>
+                    <a type="button" class="btn btn-outline-primary waves-effect" data-dismiss="modal">Cerrar</a>
+                  </div>
+                </div>
+                <!--/.Content-->
+              </div>
+            </div>
+            <!-- Central Modal Estampado-->
+
+
+          </div>
+          <!-- Card -->
+
+        </div>
+
+
+
+
+      </section>
+      <!--Seccion: Productos-->
+
+
+
+      <!--Seccion: eventos-->
+      <section class="row">
+        <h5 class="text-center col-12">Manejamos para distintos eventos del awo; Amor & amistad - Cumpleanos - Baby Shower - 1ra Comunion - Matrimonio - Bautizos.</h5>
+      </section>
+      <!--Seccion: Eventos-->
+
+    </div>
+    <!--CUERPO CENTRAL-->
+
+
+    <!--CUERPO PIE DE PAGINA-->
+    <!-- Footer -->
+    <div class="container-fluid box">
+      <footer>
+
+        <!-- Copyright -->
+        <div class="piepagina-copy footer-copyright text-center py-3 light-blue accent-3">© 2019 Copyright:
+          <b>
+            <ins><a href="#">NaturalBagsSV.com</a></ins>
+          </b>
+        </div>
+        <!-- Copyright -->
+
+      </footer>
+    </div>
+    <!-- Footer -->
+    <!--CUERPO PIE DE PAGINA-->
+
+
+  </div>
+
+  <!-- Start your project here-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
 </body>
+
 </html>
