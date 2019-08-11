@@ -67,9 +67,7 @@
 
 body{
     height: auto;
-    background-image: url("../img/fondo1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
 }
 .fondo-principal{
     width: 100%;
