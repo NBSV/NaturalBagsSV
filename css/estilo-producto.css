@@ -1,3 +1,70 @@
+*,*:after, *:before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contenedor-carga{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#titulo-carga{
+    position: fixed;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+
+}
+
+#img-carga{
+    width: 90px;
+    height: 120px;
+    position: fixed;
+    top: -80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: rgb(104, 182, 255);
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar{
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
 body{
     height: auto;
     background-image: url("../img/fondo1.jpg");
@@ -9,7 +76,7 @@ body{
     height: 100%;
 }
 .barra-navegacion{
-    margin: 10px 10px 6px 10px;
+    margin: 0;
     padding: 10px;
 }
 .titulo{
@@ -24,14 +91,53 @@ body{
     font-family: 'Kreon', serif;
     margin: 0px 20px;
     padding: 10px 20px;
-    border: 1px solid black;
+ /*   border: 1px solid black;*/
+    height: auto;
+}
+
+.m1 {
+    width: auto;
     height: auto;
 }
 
 
+/*cargando*/
+
+.caja-cargando{
+    width: auto;
+    margin-left: 44%;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid rgb(104, 182, 255);
+  border-bottom: 16px solid rgb(104, 182, 255);
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1.5s linear infinite;
+  animation: spin 1.5s linear infinite;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.i2{
+    display: none;
+}
+
+
+
 /*FOOTER*/
 .box{
-    margin-top: 0px;
+    margin-top: -20px;
 }
 .piepagina-copy a{
     font-family: 'Merienda', cursive;

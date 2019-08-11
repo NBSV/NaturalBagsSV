@@ -1,3 +1,73 @@
+*,*:after, *:before{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#contenedor-carga{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    -webkit-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+    z-index: 10000;
+}
+
+#titulo-carga{
+    position: fixed;
+    top: 150px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    font-family: 'Merienda', cursive;
+
+}
+
+#img-carga{
+    width: 90px;
+    height: 120px;
+    position: fixed;
+    top: -80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+
+
+#carga{
+    border: 15px solid #ccc;
+    border-top-color: rgb(104, 182, 255);
+    border-top-style: groove;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    position: fixed;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    
+    -webkit-animation: girar 1.5s linear infinite;
+    -o-animation: girar 1.5s linear infinite;
+    animation: girar 1.5s linear infinite;
+}
+
+@keyframes girar{
+    from { transform: rotate(0deg);}
+    to { transform: rotate(360deg);}
+}
+
+
 body{
     height: auto;
     background-image: url("../img/fondo1.jpg");
@@ -9,7 +79,7 @@ body{
     height: 100%;
 }
 .barra-navegacion{
-    margin: 10px 10px 6px 10px;
+    margin: 0;
     padding: 10px;
 }
 .titulo{
