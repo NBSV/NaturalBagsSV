@@ -12,8 +12,8 @@ window.onload = function () {
 }
 
 
-function mifuncion() {
-    var container = document.getElementById("cargando");
+function mifuncion1() {
+    var container = document.getElementById("cargando1");
 
     setTimeout(function () {
         container.style.display = "none";
@@ -22,11 +22,49 @@ function mifuncion() {
 
 }
 
-var cuerp = function () {
+var cuerp1 = function () {
 
-    var cont = document.getElementById("cuerpo");
-    cont.className = cont.className.replace("i2", "");
+    var cont = document.getElementById("cuerpo1");
+    cont.style.display = "block";
 
 };
 
-setTimeout(cuerp, 6000);
+setTimeout(cuerp1, 6000);
+
+function mifuncion2() {
+    var container = document.getElementById("cargando2");
+
+    setTimeout(function () {
+        container.style.display = "none";
+    }, 3000);
+
+
+}
+
+var cuerp2 = function () {
+
+    var cont = document.getElementById("cuerpo2");
+    cont.style.display = "block";
+
+};
+
+setTimeout(cuerp2, 6000);
+
+function mifuncion3() {
+    var container = document.getElementById("cargando3");
+
+    setTimeout(function () {
+        container.style.display = "none";
+    }, 3000);
+
+
+}
+
+var cuerp3 = function () {
+
+    var cont = document.getElementById("cuerpo3");
+    cont.style.display = "block";
+
+};
+
+setTimeout(cuerp3, 6000);
