@@ -1,7 +1,7 @@
 window.onload = function () {
     setTimeout(function () {
 
-        var x = document.getElementById("contenedor-carga");
+        var contenedor = document.getElementById("contenedor-carga");
         contenedor.style.visibility = "hidden";
         contenedor.style.opacity = "0";
 
