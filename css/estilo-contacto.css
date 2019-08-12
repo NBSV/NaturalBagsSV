@@ -1,13 +1,16 @@
-*,*:after, *:before{
+*,
+*:after,
+*:before {
     margin: 0;
     padding: 0;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-#contenedor-carga{
-    margin: 0;
-    padding: 0;
+
+#cont-carga {
+    margin: 0px;
+    padding: 0px;
     background-color: rgb(255, 255, 255);
     height: 100%;
     width: 100%;
@@ -18,7 +21,7 @@
     z-index: 10000;
 }
 
-#titulo-carga{
+#titulo-carga {
     position: fixed;
     top: 150px;
     left: 0;
@@ -30,7 +33,7 @@
 
 }
 
-#img-carga{
+#img-carga {
     width: 90px;
     height: 120px;
     position: fixed;
@@ -41,9 +44,7 @@
     margin: auto;
 }
 
-
-
-#carga{
+#carga {
     border: 15px solid #ccc;
     border-top-color: rgb(104, 182, 255);
     border-top-style: groove;
@@ -56,15 +57,20 @@
     right: 0;
     bottom: 0;
     margin: auto;
-    
+
     -webkit-animation: girar 1.5s linear infinite;
     -o-animation: girar 1.5s linear infinite;
     animation: girar 1.5s linear infinite;
 }
 
-@keyframes girar{
-    from { transform: rotate(0deg);}
-    to { transform: rotate(360deg);}
+@keyframes girar {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
 }
 
 
