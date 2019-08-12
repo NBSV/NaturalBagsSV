@@ -1,20 +1,19 @@
-*,
-*:after,
-*:before {
-    margin: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
+.cuerp {
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+    width: 100%;
+    }
 
 
 #cont-carga {
     width: 100%;
-    min-height: 100vh;
+    min-height: 100%;
     margin: 0%;
     padding: 0%;
-    position: absolute;
-    background-color: rgb(255, 170, 170);
+    position: fixed;
+    background-color: rgb(255, 255, 255);
     -webkit-transition: all 2s ease;
     -o-transition: all 2s ease;
     transition: all 2s ease;
@@ -23,7 +22,7 @@
 
 #titulo-carga {
     position: relative;
-    top: 0px;
+    top: 90%;
     left: 0;
     right: 0;
     bottom: 0;
@@ -37,11 +36,12 @@
     width: 90px;
     height: 120px;
     position: relative;
-    top: 0px;
+    top: 30%;
     left: 0;
     right: 0;
     bottom: 0;
     margin: auto;
+    text-align: center;
 }
 
 #carga {
@@ -56,8 +56,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    margin: auto;
-
+    margin: auto; 
     -webkit-animation: girar 1s linear infinite;
     -o-animation: girar 1s linear infinite;
     animation: girar 1s linear infinite;
@@ -73,13 +72,6 @@
     }
 }
 
-
-body {
-    margin: 0%;
-    padding: 0%;
-    min-height: 100%;
-    width: 100%;
-    }
 
 .fondo-principal {
     width: 100%;
