@@ -67,7 +67,6 @@
 
 body{
     height: auto;
-
 }
 .fondo-principal{
     width: 100%;
@@ -85,8 +84,8 @@ body{
     font-family: 'Kreon', serif;
 }
 .central{
-    margin: 0px;
-    padding: 0px;
+    margin: 0px 20px;
+    padding: 10px 20px;
     border: 0px solid black;
     height: auto;
 }
