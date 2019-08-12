@@ -5,5 +5,8 @@ window.onload = function(){
         contenedor.style.visibility = "hidden";
         contenedor.style.opacity = "0";
 
+        var x = document.getElementById("fondo-principal");
+        x.style.display = "block";
+
     },1000);
 }
