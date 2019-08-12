@@ -19,11 +19,11 @@ function mifuncion() {
 
 }
 
-var body = function () {
+var cuerp = function () {
 
     var cont = document.getElementById("cuerpo");
     cont.className = cont.className.replace("i2", "");
 
 };
 
-setTimeout(body, 6000);
+setTimeout(cuerp, 6000);
